@@ -1,0 +1,1 @@
+Instrument API and consumers with OpenTelemetry; export throughput, p50/p95/p99 event-to-alert latency, consumer lag, failures, dead-letter counts, alert rates and model drift.

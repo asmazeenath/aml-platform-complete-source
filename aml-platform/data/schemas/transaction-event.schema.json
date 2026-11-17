@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AML Transaction Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "source_account_ref",
+    "destination_account_ref",
+    "amount",
+    "currency",
+    "channel",
+    "occurred_at"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "source_account_ref": {
+      "type": "string"
+    },
+    "destination_account_ref": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "string",
+      "pattern": "^[0-9]+(\\\\.[0-9]{1,2})?$"
+    },
+    "currency": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3
+    },
+    "channel": {
+      "type": "string"
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

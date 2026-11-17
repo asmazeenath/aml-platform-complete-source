@@ -1,0 +1,1 @@
+Use notebooks for exploration only. Move reusable feature and model code into pipelines/ and feature_definitions/.

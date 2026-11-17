@@ -1,0 +1,1 @@
+Kafka/Redpanda topic contract: `transactions.raw`; key by source account or event ID. Configure retention, replication, consumer groups, retry and dead-letter topics for deployment.

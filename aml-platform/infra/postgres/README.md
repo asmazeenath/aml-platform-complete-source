@@ -1,0 +1,1 @@
+PostgreSQL is the system of record. Use NUMERIC(20,2) for monetary values, UTC timestamps, unique event IDs, least-privilege roles, backups and tested restores.
